@@ -4,10 +4,10 @@ from tweepy import API
 from tweepy import Cursor
 
 
-consumer_key="WIDp72CVgPX4JWQc48242YX4U"
-consumer_secret="AV0oMjchFJkmlp5NJRipNJOqCBx3CCTCFFmZFw0rNMDjFQbUBS"
-access_token="2501090318-RLEs3AbQ07mBVAYw0FyYBJI9XUInl8KbzgKiDvI"
-access_token_secret="s3si02WSNatFGHvwQIMISQcxdNr8vg5VQxxOJTdRt2oTY"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
